@@ -26,6 +26,9 @@ namespace Windows.UI.Xaml.Controls
 		bool CanHorizontallyScroll { get; set; }
 		bool CanVerticallyScroll { get; set; }
 
+		double ExtentHeight { get; set; }
+		double ExtentWidth { get; set; }
+
 		/// <summary>
 		/// The absolute dimensions of the content (or an estimate), for presenters where this is not simply equal to the Content element's size.
 		/// </summary>

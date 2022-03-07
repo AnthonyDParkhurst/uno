@@ -50,6 +50,17 @@ namespace Windows.UI.Xaml.Controls
 			set { }
 		}
 
+		public double ExtentHeight
+		{
+			get => 0;
+			set { }
+		}
+		public double ExtentWidth
+		{
+			get => 0;
+			set { }
+		}
+
 		public object Content
 		{
 			get => _content;
